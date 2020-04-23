@@ -1,0 +1,120 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body{
+     font-size: 16px;
+  }
+
+  .container{
+   width: 100%;
+   max-width: 1600px;
+   margin: 0 auto;
+   padding: 0px 30px;
+}
+
+
+  /*tipografia */
+ :root{
+    --cor-main:#ed4748;
+    --cor-text:#02080b;
+    --font-main:'Barlow', sans-serif;
+    
+    --font-size-12:0.750em;/*12px*/
+    --font-size-14:0.875em;/*14px*/
+    --font-size-16:1em;/*16px*/
+    --font-size-18:1.125em;/*18px */
+    --font-size-22:1.375em;/*22px */
+    --font-size-24:1.5em;/*24px*/
+    --font-size-32:2em;/*32px*/
+    --font-size-48:3em;/*48px*/
+    --font-size-56:3.5em;/*56px*/
+
+
+    --line-height:1.4em;
+    --line-height-2:1.5em;
+    
+ } 
+
+   .title-1{
+      font-size: var(--font-size-56);
+      line-height: var(--line-height);
+   }
+
+   .title-2{
+      font-size: var(--font-size-48);
+      line-height: var(--line-height);
+   }
+   .title-3{
+      font-size: var(--font-size-32);
+      line-height: var(--line-height);
+   }
+   .title-4{
+      font-size: var(--font-size-24);
+      line-height: var(--line-height);
+   }
+
+   .title-5{
+      font-size: var(--font-size-22);
+      line-height: var(--line-height);
+   }
+   .title-6{
+      font-size: var(--font-size-18);
+      line-height: var(--line-height);
+   }
+
+   .text{
+      font-size: var(--font-size-16);
+      line-height: var(--line-height-2);
+   }
+
+@media only screen and (max-width: 1280px) {
+   .title-1{
+      font-size: var(--font-size-48);
+    }
+   
+    .title-2{
+      font-size: var(--font-size-32);
+   }
+   .title-3{
+      font-size: var(--font-size-24);
+   }
+   .title-4{
+      font-size: var(--font-size-22);
+   }
+   
+   .title-5{
+      font-size: var(--font-size-18);
+   }
+   .title-6{
+      font-size: var(--font-size-16);
+   }
+}
+
+@media only screen and (max-width: 960px) {
+   .title-1{
+      font-size: var(--font-size-32);
+    }
+   
+    .title-2{
+      font-size: var(--font-size-24);
+   }
+   .title-3{
+      font-size: var(--font-size-22);
+   }
+
+   .text{
+      font-size: var(--font-size-14);
+   }
+}
+
+
+@media only screen and (max-width: 340px) {
+   .text{
+      font-size: var(--font-size-12);
+   }
+}
