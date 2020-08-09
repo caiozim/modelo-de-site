@@ -1,5 +1,3 @@
-Estrutura modelo para criação de um site com Grid , SEO básico e tipografia responsiva.
+Estrutura modelo para criação de um site.
 
 
-
-Grid  Largura de 1200
