@@ -5,12 +5,7 @@
    box-sizing: border-box;
    scroll-behavior: smooth;
  }
- 
- /* http://meyerweb.com/eric/tools/css/reset/
-    v2.0 | 20110126
-    License: none (public domain)
- */
- 
+
  html, body, div, span, applet, object, iframe,
  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
  a, abbr, acronym, address, big, cite, code,
@@ -37,18 +32,10 @@
     display: block;
  }
 
- * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-
-}
-
 body{
    font-size: 16px;
    overflow-x: hidden;
-   font-family: var(--font-main);
+   font-family: var(--font);
 }
 
 a{
@@ -69,9 +56,9 @@ img{
 
 /*tipografia */
 :root{
-  --cor-main:#31D06A;
-  --cor-second:#2BB8D3;
-  --font-main:'Roboto', sans-serif;
+  --color-1:#31D06A;
+  --color-2:#2BB8D3;
+  --font:'Roboto', sans-serif;
 
   --font-size-14:0.875em;/*14px*/
   --font-size-16:1em;/*16px*/
@@ -83,7 +70,7 @@ img{
   --font-size-56:3.5em;/*56px*/
 
   --line-height:1.4em;
-} 
+}
 /* bolds */
 .bold-200{
   font-weight: 200;
@@ -108,64 +95,27 @@ img{
 }
 
 /* typography */
-.title-h1{
+.size-56{
     font-size: var(--font-size-56);
  }
-.title-h2{
+.size-48{
     font-size: var(--font-size-48);
  }
-.title-h3{
+.size-32{
     font-size: var(--font-size-32);
  }
-.title-h4{
+.size-24{
     font-size: var(--font-size-24);
  }
-.title-h5{
+.size-22{
     font-size: var(--font-size-22);
  }
-.title-h6{
+.size-18{
     font-size: var(--font-size-18);
  }
-.text{
+.size-16{
     font-size: var(--font-size-16);
  }
-
-@media only screen and (max-width: 1280px) {
- .title-h1{
-    font-size: var(--font-size-48);
-  }
- 
-  .title-h2{
-    font-size: var(--font-size-32);
- }
- .title-h3{
-    font-size: var(--font-size-24);
- }
- .title-h4{
-    font-size: var(--font-size-22);
- }
- 
- .title-h5{
-    font-size: var(--font-size-18);
- }
- .title-h6{
-    font-size: var(--font-size-16);
- }
-}
-
-@media only screen and (max-width: 960px) {
- .title-h1{
-    font-size: var(--font-size-32);
-  }
- 
-  .title-h2{
-    font-size: var(--font-size-24);
- }
- .title-h3{
-    font-size: var(--font-size-22);
- }
-
- .text{
-    font-size: var(--font-size-14);
- }
+ .size-14{
+  font-size: var(--font-size-14);
 }
